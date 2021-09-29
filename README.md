@@ -1,10 +1,10 @@
 # Lovely-Scene
-A love2D custom scene parser
+A love2D custom cutscene parser
 
 **NOTE:** requires [Tserial](https://github.com/zhsso/Tserial.lua) for tables to be read properly within scene files.
 
 # Breakdown
-LovelyScene is a library made to help those who want an easier way to create 'scenes'. To clarify, I'm talking scenes eg. a scene of a movie. It's not exactly easy to describe what it is without really looking at what it does, but on a basic level it's a special file parser I wrote to enable easy 'scene' creation. When used with my other library, [LovelyEvent](https://github.com/Schwegg/Lovely-Event), it can make cutscenes within your game easier to achieve.
+LovelyScene is a library made to help those who want an easier way to create 'cutscenes'. It's not exactly easy to describe what it is without really looking at what it does, but on a basic level it's a special file parser I wrote to enable easy cutscene creation. When used with my other library, [LovelyEvent](https://github.com/Schwegg/Lovely-Event), it can make cutscenes within your game easier to achieve and a lot less of a hasstle to write once it's set up.
 
 * The 'language' of scene is very primitive, but gets the job done.
 * It parses the `.lscene` file line-by-line and checks for indentations.
