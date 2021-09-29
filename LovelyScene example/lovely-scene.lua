@@ -58,6 +58,7 @@ function LovelyScene.new()
 end
 -- -- --
 function LovelyScene:setSceneDirectory( path ) self.sceneDirectory = path end
+function LovelyScene:setActorSearchFunc( func ) self.actorSearchFunc = func end
 function LovelyScene:newKeyword( keyword, func, breaksParse ) self.keywords[keyword] = {func,bparse=breaksParse} end
 -- -- --
 function LovelyScene:init()
