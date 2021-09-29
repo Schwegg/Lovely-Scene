@@ -4,7 +4,7 @@ exampleBoolean = false
 local player = {direction="right"}
 -- -- --
 function love.load()
-  lovelyScene.actorSearchFunc = actorSearchFunc
+  lovelyScene:setActorSearchFunc( actorSearchFunc )
   
   -- sets current specified actor's variable 'direction' to given direction
   -- eg. 'setDir left' sets 'actor.direction = "left"' with 'left' being a string
