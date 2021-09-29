@@ -18,6 +18,12 @@ Used to set the scene directory which is used as the path to the given file when
 * `path` (string, by default is `scenes/`) - the path to the scenes folder, for if you decide the `scenes` folder within your project isn't where you want to store your scenes for whatever reason.
 
 ```Lua
+LovelyScene:setActorSearchFunc( func )
+```
+Sets the function to be called when the parser encounters the `actor` keyword.
+* `func` (function) - function called when `actor` keyword is found in parser.
+
+```Lua
 LovelyScene:newKeyword( keywordName, keywordFunction, breaksParse )
 ```
 Adds a keyword that the parser will search for and run the given `keywordFunction` when found.
