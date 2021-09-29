@@ -1,4 +1,4 @@
-# LovelyScene
+# Lovely-Scene
 A love2D custom scene parser
 
 **NOTE:** requires [Tserial](https://github.com/zhsso/Tserial.lua) for tables to be read properly within scene files.
