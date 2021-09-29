@@ -1,0 +1,15 @@
+scene "" -- default scene that runs if none are specified
+  
+  actor Player
+    setDir left
+  
+  if getPlayer().direction == 'left'
+    
+    print "if statement is true!"
+    if exampleBoolean == true
+      goto testScene
+  
+  print "YEAHHH"
+
+scene testScene
+  print "example!!"
