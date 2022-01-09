@@ -25,6 +25,7 @@ LovelyScene:setActorSearchFunc( func )
 ```
 Sets the function to be called when the parser encounters the `actor` keyword.
 * `func` (function) - function called when `actor` keyword is found in parser.
+  * given function takes `ID` variable and must return `actor` (object/table of functions and variables)
 <br>
 
 ```Lua
